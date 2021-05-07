@@ -15,8 +15,7 @@ export default class Dashboard extends Component {
                     </div>{/* /.col */}
                     <div className="col-sm-6">
                         <ol className="breadcrumb float-sm-right">
-                        <li className="breadcrumb-item"><a href="#">Home</a></li>
-                        <li className="breadcrumb-item active">Dashboard v1</li>
+                        <li className="breadcrumb-item">Dashboard</li>
                         </ol>
                     </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -145,14 +144,14 @@ export default class Dashboard extends Component {
                             {/* Message. Default to the left */}
                             <div className="direct-chat-msg">
                                 <div className="direct-chat-infos clearfix">
-                                <span className="direct-chat-name float-left">Alexander Pierce</span>
+                                <span className="direct-chat-name float-left">James</span>
                                 <span className="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                                 </div>
                                 {/* /.direct-chat-infos */}
                                 <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image" />
                                 {/* /.direct-chat-img */}
                                 <div className="direct-chat-text">
-                                Is this template really for free? That's unbelievable!
+                                Hey, this is some random text!
                                 </div>
                                 {/* /.direct-chat-text */}
                             </div>
@@ -167,7 +166,7 @@ export default class Dashboard extends Component {
                                 <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image" />
                                 {/* /.direct-chat-img */}
                                 <div className="direct-chat-text">
-                                You better believe it!
+                                Hey, this is also some random text!
                                 </div>
                                 {/* /.direct-chat-text */}
                             </div>
@@ -182,7 +181,7 @@ export default class Dashboard extends Component {
                                 <img className="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image" />
                                 {/* /.direct-chat-img */}
                                 <div className="direct-chat-text">
-                                Working with AdminLTE on a great new app! Wanna join?
+                                What a coincidence!
                                 </div>
                                 {/* /.direct-chat-text */}
                             </div>
@@ -197,7 +196,7 @@ export default class Dashboard extends Component {
                                 <img className="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image" />
                                 {/* /.direct-chat-img */}
                                 <div className="direct-chat-text">
-                                I would love to.
+                                I know!
                                 </div>
                                 {/* /.direct-chat-text */}
                             </div>
@@ -342,7 +341,7 @@ export default class Dashboard extends Component {
                                 <label htmlFor="todoCheck1" />
                                 </div>
                                 {/* todo text */}
-                                <span className="text">Design a nice theme</span>
+                                <span className="text">Get some dank oui'd</span>
                                 {/* Emphasis label */}
                                 <small className="badge badge-danger"><i className="far fa-clock" /> 2 mins</small>
                                 {/* General tools such as edit or delete*/}
@@ -360,7 +359,7 @@ export default class Dashboard extends Component {
                                 <input type="checkbox" defaultValue name="todo2" id="todoCheck2" defaultChecked />
                                 <label htmlFor="todoCheck2" />
                                 </div>
-                                <span className="text">Make the theme responsive</span>
+                                <span className="text">Get some danker oui'd</span>
                                 <small className="badge badge-info"><i className="far fa-clock" /> 4 hours</small>
                                 <div className="tools">
                                 <i className="fas fa-edit" />
@@ -376,7 +375,7 @@ export default class Dashboard extends Component {
                                 <input type="checkbox" defaultValue name="todo3" id="todoCheck3" />
                                 <label htmlFor="todoCheck3" />
                                 </div>
-                                <span className="text">Let theme shine like a star</span>
+                                <span className="text">Get some even danker oui'd</span>
                                 <small className="badge badge-warning"><i className="far fa-clock" /> 1 day</small>
                                 <div className="tools">
                                 <i className="fas fa-edit" />
@@ -392,7 +391,7 @@ export default class Dashboard extends Component {
                                 <input type="checkbox" defaultValue name="todo4" id="todoCheck4" />
                                 <label htmlFor="todoCheck4" />
                                 </div>
-                                <span className="text">Let theme shine like a star</span>
+                                <span className="text">Get things done</span>
                                 <small className="badge badge-success"><i className="far fa-clock" /> 3 days</small>
                                 <div className="tools">
                                 <i className="fas fa-edit" />
@@ -408,7 +407,7 @@ export default class Dashboard extends Component {
                                 <input type="checkbox" defaultValue name="todo5" id="todoCheck5" />
                                 <label htmlFor="todoCheck5" />
                                 </div>
-                                <span className="text">Check your messages and notifications</span>
+                                <span className="text">Check your notifications</span>
                                 <small className="badge badge-primary"><i className="far fa-clock" /> 1 week</small>
                                 <div className="tools">
                                 <i className="fas fa-edit" />
@@ -424,7 +423,7 @@ export default class Dashboard extends Component {
                                 <input type="checkbox" defaultValue name="todo6" id="todoCheck6" />
                                 <label htmlFor="todoCheck6" />
                                 </div>
-                                <span className="text">Let theme shine like a star</span>
+                                <span className="text">Call back Seth Rogen</span>
                                 <small className="badge badge-secondary"><i className="far fa-clock" /> 1 month</small>
                                 <div className="tools">
                                 <i className="fas fa-edit" />
@@ -448,7 +447,7 @@ export default class Dashboard extends Component {
                         <div className="card-header border-0">
                             <h3 className="card-title">
                             <i className="fas fa-map-marker-alt mr-1" />
-                            Visitors
+                            Users
                             </h3>
                             {/* card tools */}
                             <div className="card-tools">
@@ -469,7 +468,7 @@ export default class Dashboard extends Component {
                             <div className="row">
                             <div className="col-4 text-center">
                                 <div id="sparkline-1" />
-                                <div className="text-white">Visitors</div>
+                                <div className="text-white">Users</div>
                             </div>
                             {/* ./col */}
                             <div className="col-4 text-center">
